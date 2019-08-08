@@ -13,7 +13,6 @@ pip3 install flask
 g++ gao.cpp -o gao
 ```
 
-分别执行以下两个命令
 ```
 python3 main.py
 ./gao
