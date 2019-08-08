@@ -1,5 +1,5 @@
 # custom-test
-just for fun
+test
 
 ## 使用方法
 
