@@ -13,7 +13,7 @@ def defau():
 	session['usn'] = str(tot)
 	return 'setted'
 
-@app.route('/')
+@app.route('/cat')
 def see():
 	return session.get('usn')
 
