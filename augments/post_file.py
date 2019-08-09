@@ -8,13 +8,13 @@ totsubmit = 0
 def index():
 	return \
 		'<form action="/submit" method="POST" enctype="multipart/form-data">\
-			<input type="file" name="file"><br>\
+			<input type="file" name="input"><br>\
 			<input type="submit">\
 		</form>'
 
 @app.route('/submit',methods=["POST"])
 def gaosub():
-	f = request.files.get('file')
+	f = request.files.get('input')
 	f.save('/home/z/subfile/test')
 	return 'ok'
 
